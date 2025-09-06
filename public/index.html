@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dark Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Matrix Background Canvas -->
+  <canvas id="matrixCanvas"></canvas>
+
+  <h1 class="header">Dark Web Marketplace</h1>
+
+  <div class="grid" id="items-container">
+    <!-- Items loaded here -->
+  </div>
+
+  <div class="checkout" id="checkout">
+    <h2>Secure Transaction</h2>
+    <form method="POST" action="/checkout">
+      <input type="hidden" name="item" id="item" />
+      <label>Full Name:</label><input name="name" required><br>
+      <label>Card Number:</label><input name="card" required><br>
+      <label>Expiry Date:</label><input name="expiry" required><br>
+      <label>CVV:</label><input name="cvv" required><br>
+      <label>IP Address:</label><input name="ip address" required><br>
+      <button type="submit">Complete Transaction</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="matrix.js"></script>
+</body>
+</html>

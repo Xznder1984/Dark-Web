@@ -1,0 +1,38 @@
+[
+  {
+    "name": "USB Vault",
+    "image": "images/item1.jpg",
+    "price": "$200",
+    "description": "Military-grade encrypted USB with unknown files."
+  },
+  {
+    "name": "Encrypted Document Set",
+    "image": "images/item2.jpg",
+    "price": "$500",
+    "description": "Highly confidential PDF bundle extracted from dark forums."
+  },
+  {
+    "name": "Ghost VPN Key",
+    "image": "images/item3.jpg",
+    "price": "$99",
+    "description": "Untraceable VPN key valid for 1 year."
+  },
+  {
+    "name": "Modified Fipper Zero",
+    "image": "images/item4.jpg",
+    "price": "$299",
+    "description": "Modified tool with ghost WiFi traps, NFC spoofing, hidden packet sniffer, stealth OS, and remote payload drop. Includes X-Revenger device, USB kill cord, and firmware QR. No support. Likely illegal."
+  },
+  {
+    "name": "CyberCrime Tools",
+    "image": "images/item5.jpg",
+    "price": "$499",
+    "description": "Tools For Cybercriminals and to Hack into any companies servers."
+  },
+   {
+    "name": "VHS Tape",
+    "image": "images/item6.jpg",
+    "price": "$999",
+    "description": "A tape with ######### In it (its censored bc i dont wanna get cancelled somehow?)."
+  }
+]
